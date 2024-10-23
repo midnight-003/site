@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dis'frutar Chá</title>
+    <link rel="stylesheet" href="styles_improved.css">
+    <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color:  #004d13;
+            font-size: 2rem;
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .social-box {
+            display: flex;
+            align-items: center;
+            background-color: rgba(248, 248, 248, 0.8); /* Fundo semi-transparente */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 0 10px;
+            padding: 10px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        .social-box:hover {
+            background-color: #ff0091;
+            color: white;
+        }
+
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="section-box">
+        <img src="verde.png" alt="Logo Dis'frutar Chá" class="logo">
+        <h1>Bem-vindo ao <span style="color: #ff0091;">Dis'</span><span style="color: #004d13;"> frutar</span></h1>
+        <p style="text-align: center; margin-bottom: 20px; color: #000; font-size: 1rem;">
+            Explore o poder dos nossos chás, óleos e terapias holísticas, criados para revitalizar corpo, mente e espírito.
+        </p>
+    </header>
+
+    <section class="section-box" id="sobre-nos">
+        <h2 style="text-align: center; color: #004d13">Sobre Nós</h2>
+        <p style = "margin-bottom: 20px; color: black; font-size: 1rem;" >Na Dis'frutar💚🍋, acreditamos que a natureza pode curar. Nossos produtos são feitos com ingredientes naturais e são projetados para ajudar no seu bem-estar.</p>
+    </section>
+
+    <!-- Foco Terapêutico -->
+    <section class="section-box" id="terapia">
+        <h2 class="section-header">Nosso foco em Terapias Integrativas</h2>
+        <p>Conecte-se consigo mesmo através das nossas práticas de arteterapia, mindfulness e massagens terapêuticas.</p>
+        <p><strong>Transforme sua vida!</strong> Nossa abordagem integra corpo e mente para ajudar você a alcançar equilíbrio e bem-estar duradouro.</p>
+    </section>
+
+    <section class="section-box" id="arte-terapia">
+        <h2 style="text-align: center; color: #004d13">Descubra o Poder da Arte para Curar</h2>
+        <p style = "margin-bottom: 20px; color: black; font-size: 1rem;">A arte-terapia é uma forma poderosa de expressão e cura. Experimente a transformação que a arte pode trazer para sua vida.</p>
+        <ul>
+            <li> 🪻 Redução de estresse e ansiedade</li>
+            <li> 🍃 Expressão emocional segura</li>
+            <li> 🥰 Aumento da autoestima e confiança</li>
+            <li> 🤩 Melhora no foco e na concentração</li>
+        </ul>
+        <a href="#contato" class="cta">Agende uma sessão de Arte-terapia</a>
+    </section>
+
+    <!-- Nova seção: Mindfulness -->
+    <section class="section-box" id="mindfulness">
+        <h2 style="text-align: center; color: #004d13">Mindfulness: Encontre Paz e Equilíbrio Interno</h2>
+        <p style = "margin-bottom: 20px; color: black; font-size: 1rem;">Com nossas sessões de Mindfulness, você aprenderá a cultivar atenção plena, ajudando a diminuir a ansiedade e trazer clareza mental.</p>
+        <ul>
+            <li> 🪻 Redução de estresse</li>
+            <li> 😮‍💨 Aumento da clareza mental</li>
+            <li> 😴 Melhora na qualidade do sono</li>
+            <li> 🥰 Maior conexão consigo mesmo</li>
+        </ul>
+        <a href="#contato" class="cta"> 🧠 Experimente uma sessão de Mindfulness</a>
+    </section>
+
+    <!-- Produtos mantidos -->
+    <section class="section-box" id="produtos">
+        <h2 class="section-header"> Nossos Produtos</h2>
+        <div class="product-container">
+            <div class="product-item">
+                <img src="cha.png" alt="Chá Relaxante" class="logo-produto">
+                <div class="product-text">
+                    <h4>Chá Relaxante</h4>
+                    <p>Ideal para aliviar o estresse e proporcionar uma noite de sono tranquila.</p>
+                    <a href="https://disfrutar.catalog.yampi.io/chas-avulsos?sort_by=best_sellers" class="button">Saiba mais</a>
+                </div>
+            </div>
+            <div class="product-item">
+                <img src="oleo.png" alt="Óleo Terapêutico" class="logo-produto">
+                <div class="product-text">
+                    <h4>Óleo Terapêutico</h4>
+                    <p>Massageie e sinta o alívio instantâneo nas áreas de tensão do corpo.</p>
+                    <a href="https://disfrutar.catalog.yampi.io/oleos-essenciais" class="button">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos mantidos -->
+    <section class="section-box" id="engagement">
+        <h2 class="section-header">Como nossos produtos e terapias já mudaram vidas</h2>
+        <p>Clientes de todo o Brasil relatam mudanças incríveis em suas rotinas, como mais energia e menos ansiedade. Veja o que nossos clientes estão dizendo:</p>
+        <blockquote>
+            <p>"As terapias da Dis'frutar transformaram minha forma de viver! Não sei o que faria sem as sessões de mindfulness!"</p>
+            <footer>– Maria Clara, cliente fiel</footer>
+        </blockquote>
+        <blockquote>
+            <p>"Desde que comecei a usar o óleo terapêutico e participar das sessões de arteterapia, sinto que minha tensão diminuiu muito."</p>
+            <footer>– João Paulo, cliente satisfeito</footer>
+        </blockquote>
+    </section>
+
+    <!-- Encantamento mantido -->
+    <section class="section-box" id="encantamento">
+        <h2 class="section-header">O que você ganha ao escolher nossos produtos e terapias?</h2>
+        <p>Além de produtos 100% naturais, oferecemos sessões personalizadas de mindfulness e arteterapia para ajudá-lo a alcançar sua melhor versão.</p>
+    </section>
+
+    <!-- CTA mantido -->
+    <section class="section-box" id="cta">
+        <h2 class="section-header">Pronto para transformar sua vida?</h2>
+        <p>Nossos chás, óleos e terapias são feitos para você que deseja mais equilíbrio e bem-estar. Aproveite agora e receba um desconto exclusivo no seu primeiro pedido ou sessão terapêutica!</p>
+        <form action="mailto:disfrutar.diandrade@gmail.com" method="post">
+            <input type="email" placeholder="Digite seu e-mail e receba seu desconto!" required>
+            <button type="submit">Quero meu desconto!</button>
+        </form>
+    </section>
+
+    <section class="social-media">
+        <div class="social-box">
+            <a href="https://www.facebook.com/seuperfil" target="_blank">
+                <img src="logofacebook.png" alt="" class="social-icon">
+                Facebook
+            </a>
+        </div>
+        <div class="social-box">
+            <a href="https://www.instagram.com/seuperfil" target="_blank">
+                <img src="logoinstagram.png" alt="" class="social-icon">
+                Instagram
+            </a>
+        </div>
+        <div class="social-box">
+            <a href="https://twitter.com/seuperfil" target="_blank">
+                <img src="twitter-icon.png" alt="" class="social-icon">
+                Twitter
+            </a>
+        </div>
+        <div class="social-box">
+            <a href="https://www.linkedin.com/in/seuperfil" target="_blank">
+                <img src="linkedin-icon.png" alt="" class="social-icon">
+                LinkedIn
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Dis'frutar Chá - Ateliê Terapêutico 2024</p>
+        <p>Siga-nos nas redes sociais para mais novidades!</p>
+    </footer>
+</body>
+
+</html>
